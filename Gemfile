@@ -56,3 +56,5 @@ gem 'friendly_id', '~> 5.1.0'
 gem 'devise', '~> 4.3'
 
 gem 'bootstrap', '~> 4.0.0.alpha6'
+
+gem 'cannon_tools', git: 'https://github.com/bcannon2000/cannon_tools'

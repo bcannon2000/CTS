@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/bcannon2000/cannon_tools
+  revision: 86317129e646042da74f94ef1b511dfbb0b791b9
+  specs:
+    cannon_tools (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -185,6 +191,7 @@ PLATFORMS
 DEPENDENCIES
   bootstrap (~> 4.0.0.alpha6)
   byebug
+  cannon_tools!
   coffee-rails (~> 4.2)
   devise (~> 4.3)
   friendly_id (~> 5.1.0)
