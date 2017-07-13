@@ -17,6 +17,6 @@ module ApplicationHelper
   end
 
   def copyright_generator
-    DevcampViewTool::Renderer.copyright 'Benjamin Cannon', 'All rights reserved'
+    CannonTools::Renderer.copyright 'Benjamin Cannon', 'All rights reserved'
   end
 end
