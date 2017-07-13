@@ -57,4 +57,4 @@ gem 'devise', '~> 4.3'
 
 gem 'bootstrap', '~> 4.0.0.alpha6'
 
-gem 'cannon_tools', git: 'https://github.com/bcannon2000/cannon_tools'
+gem 'cannon_tools', '~> 0.1.0'
