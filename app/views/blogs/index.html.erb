@@ -5,12 +5,7 @@
 <table>
   <thead>
     <tr>
-<<<<<<< HEAD
-      <th>Blog Title</th>
-      <th>Date</th>
-=======
       <th>Title</th>
->>>>>>> rubygem
       <th>Body</th>
       <th>Date</th>
       <th colspan="4"></th>
@@ -24,4 +19,4 @@
 
 <br>
 
-<%= link_to 'New Blog', new_blog_path %>
+<%= link_to 'New Blog', new_blog_path if logged_in?(:site_admin) %>
