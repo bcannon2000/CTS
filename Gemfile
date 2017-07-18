@@ -58,5 +58,6 @@ gem 'devise', '~> 4.3'
 gem 'bootstrap', '~> 4.0.0.alpha6'
 
 gem 'cannon_tools', '~> 0.1.0'
-
 gem 'petergate', '~> 1.7'
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
+gem 'kaminari', '~> 1.0', '>= 1.0.1'
