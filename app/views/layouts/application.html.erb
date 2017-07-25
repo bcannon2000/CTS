@@ -18,8 +18,17 @@
       <div class="site-wrapper-inner">
         <div class="cover-container">
 
-          <div id="background"></div>
-
+          <%= video_tag(
+              'My_Movie.mp4',
+              id: 'background',
+              autoplay: true,
+              loop: true,
+              muted: true,
+              poster: 'Frisk.png'
+            )
+            %>
+          
+          
           <%= render "shared/application_nav" %>
 
           <%= yield %>
